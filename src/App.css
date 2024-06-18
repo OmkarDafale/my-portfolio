@@ -1,0 +1,46 @@
+body {
+  background-color: #0B0B0B;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.animateY {
+  animation: textY-animate 1s;
+  animation-delay: 0.1s;
+}
+
+@keyframes textY-animate {
+  from {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.animate-Heading {
+  animation: text-animate 1s;
+}
+.animate-text {
+  animation: text-animate 1s;
+  animation-delay: 0.1s;
+}
+
+@keyframes text-animate {
+  from {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
