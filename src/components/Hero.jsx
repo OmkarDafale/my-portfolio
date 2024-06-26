@@ -20,7 +20,7 @@ const Hero = () => {
                         <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" className="text-gray opacity-50 group-hover:scale-110 group-hover:opacity-100" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z"></path></svg>
                     </span>
                 </Link>
-                <a href='/Omkar_Dafale_Resume.pdf' target="_blank"className='border-2 border-white py-3 px-5 rounded-full hover:underline flex items-center gap-1 group' >View Resume 
+                <a href='/Resume_Omkar_Dafale.pdf' target="_blank"className='border-2 border-white py-3 px-5 rounded-full hover:underline flex items-center gap-1 group' >View Resume 
                 <svg className='group-hover:animate-bounce' xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 128 128" id="arrow-down"><path stroke="#fff" stroke-linecap="round" stroke-width="5" d="M41 53L60.354 71.9239C62.1028 73.6338 64.8972 73.6338 66.646 71.9239L86 53"></path></svg>
                 </a>
             </div>
